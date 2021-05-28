@@ -1,16 +1,12 @@
 const express = require('express')
 const routes = express.Router();
 
-routes.get('/', (request, response) => {
-    return response.send('Funciona');
-});
+const personaController = require('./controllers/PersonaController');
 
-routes.get('/source', (request, response) => {
-    return response.send('Não tem pesquisa ainda');
-});
+routes.get('/', personaController.index);
 
-routes.get('/detail', (request, response) => {
-    return response.send('Ainda será montado os detalhes');
-});
+routes.get('/source', personaController.search);
+
+routes.get('/detail', personaController.detail);
 
 module.exports = routes;
