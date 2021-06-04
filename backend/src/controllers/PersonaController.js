@@ -30,12 +30,16 @@ module.exports = {
     // Retornando os dados dos personagens com os detalhes (localização e episódios)
     async detail(request, response) {
 
+        const persona_id = request.headers.persona_id;
+
         const personas = await connection('persona')
             .join('location', 'location.id', '=', 'persona.location_id')
             .join('episodes', 'episodes.id', '=', 'persona.episodes_id')
+            .limit(1)
+            .where('persona.id', persona_id)
             .select([
-                'persona.id', 
-                'persona.name', 
+                'persona.id',
+                'persona.name',
                 'persona.status',
                 'persona.specie',
                 'persona.type',
