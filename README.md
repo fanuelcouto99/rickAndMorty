@@ -2,9 +2,9 @@
 Projeto criado usando NodeJs e React
 
 <p align="center">
-   <img src="https://github.com/carlosguttemberg/Pokedex/blob/master/frontend/src/assets/pokemon-logo.png" width="300">
-   <img src="https://github.com/carlosguttemberg/Pokedex/blob/master/img/node-js.png" width="300">
-   <img src="https://github.com/carlosguttemberg/Pokedex/blob/master/img/react.png" width="300">
+   <img src="https://github.com/fanuelcouto99/rickAndMorty/blob/main/img/logo.png" width="300">
+   <img src="https://github.com/fanuelcouto99/rickAndMorty/blob/main/img/node-js.png" width="300">
+   <img src="https://github.com/fanuelcouto99/rickAndMorty/blob/main/img/react.png" width="300">
 </p>
 
 <hr>
@@ -16,25 +16,26 @@ Projeto criado usando NodeJs e React
 No projeto foi usado também CSS, criado especificamente para ele, usando Styled Components.</p>
 
 <p align="center">
-   <img src="https://github.com/carlosguttemberg/Pokedex/blob/master/img/listPokemons.png">
+   <img src="https://github.com/fanuelcouto99/rickAndMorty/blob/main/img/personas.png">
+   <img src="https://github.com/fanuelcouto99/rickAndMorty/blob/main/img/personas2.png">
 </p>
 
 Além de exibir os detalhes de cada personagem.
 
 <p align="center">
-   <img src="https://github.com/carlosguttemberg/Pokedex/blob/master/img/listPokemons.png">
+   <img src="https://github.com/fanuelcouto99/rickAndMorty/blob/main/img/detail.png">
 </p>
 
 Para o projeto foi usado também o infinit scroll carregando os personagens de 20 em 20.
 
 <p align="center">
-   <img src="https://github.com/carlosguttemberg/Pokedex/blob/master/img/listPokemons.png">
+   <img src="https://github.com/fanuelcouto99/rickAndMorty/blob/main/img/scroll.gif">
 </p>
 
 Navegação entre as telas do projeto.
 
 <p align="center">
-   <img src="https://github.com/carlosguttemberg/Pokedex/blob/master/img/listPokemons.png">
+   <img src="https://github.com/fanuelcouto99/rickAndMorty/blob/main/img/telas.gif">
 </p>
 
 ### :rocket: Executando o projeto
@@ -51,7 +52,7 @@ Navegação entre as telas do projeto.
 disponibilizada junto com o projeto. Entretanto o Knex suporta outras bases. Mais informaçõesna documentação http://knexjs.org/</p>
 
 <p align="center">
-   <img src="https://github.com/carlosguttemberg/Pokedex/blob/master/img/listPokemons.png">
+   <img src="https://github.com/fanuelcouto99/rickAndMorty/blob/main/img/knexfile.png">
 </p>
 
 <p>Configurado a base de dados, ou usado a que está no projeto, só será preciso executar o comando abaixo na pasta do backend para que o servidor fique rodando, 
